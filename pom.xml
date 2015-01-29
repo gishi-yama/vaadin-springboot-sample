@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>vaadin-springboot-sample</artifactId>
+	<artifactId>springboot-vaadin-sample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>vaadin-springboot-sample</name>
+	<name>springboot-vaadin-sample</name>
 	<description>Demo project for Spring4Vaadin (SpringBoot)</description>
 
 	<parent>
