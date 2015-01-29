@@ -3,7 +3,6 @@ package com.example.ui;
 import org.vaadin.spring.UIScope;
 import org.vaadin.spring.navigator.VaadinView;
 
-import com.vaadin.annotations.Theme;
 import com.vaadin.data.validator.AbstractValidator;
 import com.vaadin.data.validator.EmailValidator;
 import com.vaadin.navigator.View;
@@ -17,7 +16,6 @@ import com.vaadin.ui.TextField;
 import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.themes.Reindeer;
 
-@Theme("valo")
 @UIScope
 @VaadinView(name = LoginView.NAME)
 public class LoginView extends CustomComponent implements View {

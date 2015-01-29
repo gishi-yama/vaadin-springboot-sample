@@ -3,7 +3,6 @@ package com.example.ui;
 import org.vaadin.spring.UIScope;
 import org.vaadin.spring.navigator.VaadinView;
 
-import com.vaadin.annotations.Theme;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
 import com.vaadin.ui.Button;
@@ -11,7 +10,6 @@ import com.vaadin.ui.CssLayout;
 import com.vaadin.ui.CustomComponent;
 import com.vaadin.ui.Label;
 
-@Theme("valo")
 @UIScope
 @VaadinView(name = LoginedView.NAME)
 public class LoginedView extends CustomComponent implements View {
