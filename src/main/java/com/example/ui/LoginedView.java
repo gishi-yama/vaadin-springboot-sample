@@ -1,17 +1,16 @@
 package com.example.ui;
 
-import org.vaadin.spring.UIScope;
-import org.vaadin.spring.navigator.VaadinView;
-
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
+import com.vaadin.spring.annotation.SpringUI;
+import com.vaadin.spring.annotation.SpringView;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.CssLayout;
 import com.vaadin.ui.CustomComponent;
 import com.vaadin.ui.Label;
 
-@UIScope
-@VaadinView(name = LoginedView.NAME)
+@SpringUI
+@SpringView(name = LoginedView.NAME)
 public class LoginedView extends CustomComponent implements View {
 
 	public static final String NAME = "LoginedView";

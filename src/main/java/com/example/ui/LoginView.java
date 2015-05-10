@@ -1,13 +1,12 @@
 package com.example.ui;
 
-import org.vaadin.spring.UIScope;
-import org.vaadin.spring.navigator.VaadinView;
-
 import com.vaadin.data.validator.AbstractValidator;
 import com.vaadin.data.validator.EmailValidator;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
 import com.vaadin.shared.ui.MarginInfo;
+import com.vaadin.spring.annotation.SpringUI;
+import com.vaadin.spring.annotation.SpringView;
 import com.vaadin.ui.Alignment;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.CustomComponent;
@@ -16,8 +15,8 @@ import com.vaadin.ui.TextField;
 import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.themes.Reindeer;
 
-@UIScope
-@VaadinView(name = LoginView.NAME)
+@SpringUI
+@SpringView(name = LoginView.NAME)
 public class LoginView extends CustomComponent implements View {
 
 	public static final String NAME = "";

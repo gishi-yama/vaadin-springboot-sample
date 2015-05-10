@@ -1,17 +1,17 @@
 package com.example.ui;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.vaadin.spring.VaadinUI;
-import org.vaadin.spring.navigator.SpringViewProvider;
 
 import com.vaadin.annotations.Theme;
 import com.vaadin.navigator.Navigator;
 import com.vaadin.navigator.ViewChangeListener;
 import com.vaadin.server.VaadinRequest;
+import com.vaadin.spring.annotation.SpringUI;
+import com.vaadin.spring.navigator.SpringViewProvider;
 import com.vaadin.ui.UI;
 
 @Theme("valo")
-@VaadinUI
+@SpringUI
 public class MainUI extends UI {
 
 	@Autowired
