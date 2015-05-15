@@ -61,6 +61,7 @@
 					<dependency>
 						<groupId>org.springframework</groupId>
 						<artifactId>springloaded</artifactId>
+						<version>1.2.3.RELEASE</version>
 					</dependency>
 				</dependencies>
 			</plugin>
