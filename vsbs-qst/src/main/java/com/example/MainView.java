@@ -46,8 +46,8 @@ public class MainView extends VerticalLayout {
         textField.addThemeName("bordered");
 
         // Button click listeners can be defined as lambda expressions
-        Button button = new Button("Say hello",
-                e -> Notification.show(service.greet(textField.getValue())));
+        Button button = new Button("こんにちは",
+          e -> Notification.show(service.greet(textField.getValue()), 5000, Notification.Position.TOP_CENTER));
 
         // Theme variants give you predefined extra styles for components.
         // Example: Primary button has a more prominent look.
